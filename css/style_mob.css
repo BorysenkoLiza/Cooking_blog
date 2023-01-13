@@ -1,0 +1,358 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.fullpage{
+  max-width: 375px;
+  margin: 0 auto;
+}
+body{
+  background-color: #E7E4DF;
+}
+.grey-background{
+  background-color: rgba(194, 194, 194, 0.8);
+}
+.row{
+  display: flex;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Alma Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+p{
+  font-family: 'Alma Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+h1{
+  font-family: 'Kinglard';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 70px;
+}
+h2{
+  font-family: 'Kinglard';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 70px;
+}
+h3{
+  font-family: 'Kinglard';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+}
+h4{
+  font-family: 'Alma Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 0px 22px;
+  margin-left:15px;
+  margin-right:15px;
+  max-width: 375px;
+  border-bottom: 1px solid black;
+}
+.header .menu{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header nav{
+  padding-bottom:4px;
+  width:220px;
+}
+#hero-section{
+  padding:21px 15px 15px;
+}
+#hero-section h1{
+  height: 51px;
+  margin-left:-5px;
+}
+#hero-section h2{
+  text-align:right;
+  height: 69px;
+  padding-right: 8px;
+  padding-top: 16px;
+  padding-bottom: 21px;
+}
+#hero-section img{
+  width: 345px;
+  height: 398px;
+}
+#new-recipes-section{
+  padding:20px 15px 10px;
+}
+#new-recipes-section #latest{
+  height: 52px;
+}
+#new-recipes-section #recipes{
+  text-align: center;
+  height: 55px;
+  width: 300px;
+  padding: 5px 45px 6px;
+}
+#new-recipes-section img{
+  width: 165px;
+  height: 225px;
+}
+#new-recipes-section .recipes-row{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+#new-recipes-section .recipes-row ul{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#new-recipes-section .recipes-row ul h3{
+  text-align: center;
+  height: 21px;
+  width: 165px;
+  padding-top:9px;
+}
+#about-section{
+  padding:22px 15px 20px;
+}
+#about-section h2{
+  height: 60px;
+  text-align: right;
+  padding-right: 8px;
+  padding-bottom: 18px;
+}
+#about-section img{
+  width: 344px;
+  height: 306px;
+  padding-bottom:9px;
+}
+#about-section p{
+  padding: 10px 15px 9px;
+}
+#about-section h4{
+    padding: 10px 15px 0px;
+}
+.contact-section{
+  padding:15px 15px 12px;
+}
+.contact-section img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom:10px;
+}
+.contact-section #first{
+  width: 264px;
+  height:19px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1px;
+}
+.contact-section #second{
+  width: 116px;
+  height:19px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact-section .social-media-row ul{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#recipes-section{
+  padding:20px 0px 5px;
+  margin:0px 15px;
+}
+#recipes-section h1{
+  text-align: right;
+  padding-right:5px;
+  padding-bottom:15px;
+}
+#recipes-section .filter{
+  height:50px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+#recipes-section .filter-first{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+#recipes-section .filter-first ul{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top:5px;
+  padding-left:5px;
+  padding-right:5px;
+}
+#recipes-section .filter-second{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+#recipes-section .filter-second ul{
+  width:180px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left:40px;
+}
+#recipes-section img{
+  height: 225px;
+  width:auto;
+}
+#recipes-section .recipes-list{
+  padding-top:15px;
+}
+#recipes-section .list-row{
+  padding-bottom:3px;
+}
+#recipes-section .list-row ul{
+  display:flex;
+  justify-content: space-between;
+}
+#recipes-section .recipes-list h3{
+  text-align:center;
+  padding-top:10px;
+  width: 165px;
+  height: 25px;
+  align-items: center;
+}
+#recipes-section .recipes-list a{
+  width: 165px;
+  height: 25px;
+}
+#recipes-section .recipes-list .ontop-recipe{
+  justify-content: space-between;
+}
+#recipes-section .recipes-list .ontop-recipe p{
+  text-align: right;
+  padding-right:2px;
+  font-size: 10px;
+}
+#hero-section-recipe{
+  padding:17px 0px 0px;
+  margin:0px 15px;
+}
+#hero-section-recipe img{
+  width: 345px;
+  height: auto;
+}
+#hero-section-recipe h1{
+  text-align:left;
+  height: 58px;
+  margin-left:-10px;
+  font-size: 63px;
+}
+#hero-section-recipe h2{
+  font-size: 63px;
+  height: 58px;
+}
+#hero-section-recipe #second{
+  margin-left:-10px;
+}
+#hero-section-recipe #third{
+  text-align:center;
+  padding-bottom:10px;
+}
+#time-section{
+  margin:0px 15px;
+  padding: 10px 0px 10px;
+}
+#time-section .time-row{
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#time-section .time-row ul{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#ingridients-section{
+  position: relative;
+  text-align: left;
+  padding-left:15px;
+  padding-bottom:5px;
+}
+#ingridients-section img{
+  position: absolute;
+  height: 772.41px;
+  width:auto;
+  left: 177.59px;
+  top:7px;
+}
+#ingridients-section .ingridients-list{
+  font-family: 'Alma Sans';
+  font-size: 12px;
+}
+#ingridients-section #broth{
+  width: 262px;
+}
+#ingridients-section h2{
+  position: absolute;
+  width: 253px;
+  height: 70px;
+  left: 106px;
+  top:5px;
+  text-align: right;
+}
+#ingridients-section h3{
+  font-family: 'Kinglard';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  padding-bottom:10px;
+}
+#ingridients-section #ingridients{
+  padding-top:76px;
+}
+#ingridients-section .ingridients-list{
+  padding-bottom:10px;
+}
+#directions-section{
+ padding:15px 15px 12px;
+}
+#directions-section img{
+  width: 345px;
+  height: 449px;
+}
+#directions-section h2{
+
+}
+#directions-section ol{
+  padding:5px 0px 15px;
+  padding-left:15px;
+  font-family: 'Alma Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
